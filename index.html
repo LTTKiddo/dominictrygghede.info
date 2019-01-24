@@ -1,11 +1,44 @@
 <html>
-	<head></head>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset=”UTF-8”>
+		<meta name="keywords" content="Dominic,Trygghede,Information">
+		<meta name="author" content="Dominic Trygghede">
+		<meta name="description" content="Information om mig.">
+		<title>Dominic Trygghede</title>
+		<style>
+			@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+			html {
+				font-family: 'Open Sans', sans-serif;
+			}
+
+			h1 {
+				font-weight: 800;
+				font-size: 2.4em;
+				margin-top: 0px;
+			}
+
+			.container {
+				max-width: 600px;
+				margin-left: auto;
+				margin-right: auto;
+				padding: 20px;
+			}
+		</style>
+	</head>
 	<body>
 		<div class="container">
-			<h1>Hej, jag heter Dominic Trygghede</h1>
-			<p>Jag är en pojke på 15 bast som gillar hundar och att tugga på elkablar.</p>
-			<p>Jag föddes år 2003, mina föräldrar trodde jag var en dvärg. Men det visade sig att jag bara var ovanligt kort.</p>
-			<p>Jag är fucking elit 1337 #420blzit</p>
+			<h1>Det är jag,<br/> Dominic Trygghede.</h1>
+			<p>Jag heter Dominic Trygghede och är en pojke på <span id="age">2003</span> somrar som gillar hundar och att tugga på elkablar.<br/>Min födelsedag är den 16 juni, jobbar just nu på att skaffa mig min första kompis.<br/>Jag är för tusan elite! #1337 #420blzit</p>
 		</<div>
+		<script>
+			function _calculateAge(birthday) {
+				var ageDifMs = Date.now() - birthday.getTime();
+				console.log("Dominic Trygghede fyller år den " + birthday.getDate() + "/" + (birthday.getMonth() + 1) + ". Det är vetenskapligt bevisat.")
+				var ageDate = new Date(ageDifMs);
+				return Math.abs(ageDate.getUTCFullYear() - 1970);
+			}
+			document.getElementById('age').innerHTML = _calculateAge(new Date(2003, 5, 16));
+		</script>
 	</body>
 </html>
