@@ -4,7 +4,7 @@
 		<meta charset=”UTF-8”>
 		<meta name="keywords" content="Dominic,Trygghede,Information">
 		<meta name="author" content="Dominic Trygghede">
-		<meta name="description" content="Dominic Trygghedes hemsida, här kan du läsa om lite allt möjligt! :) (Information om skolmaten finns)">
+		<meta name="description" content="Information om mig.">
 		<title>Dominic Trygghede</title>
 		<style>
 			@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
@@ -24,21 +24,31 @@
 				margin-right: auto;
 				padding: 20px;
 			}
+			.images img {
+				width: 270px;
+			}
 		</style>
 	</head>
 	<body>
 		<div class="container">
 			<h1>Det är jag,<br/> Dominic Trygghede.</h1>
 			<p>Jag heter Dominic Trygghede och är en pojke på <span id="age">2003</span> somrar som gillar hundar och att tugga på elkablar.<br/>Min födelsedag är den 16 juni, jobbar just nu på att skaffa mig min första kompis.<br/>Jag är för tusan elite! #1337 #420blzit</p>
-			<h2>Skolmaten (jag uppdaterar varje dag!)</h2>
+			<h2>Skolmaten</h2>
 			<div id="rss">
+			</div>
+			<div class="images">
+				<img src="https://pbs.twimg.com/profile_images/566507935241883648/_SRUTGPi_400x400.jpeg"></img>
+				<img src="https://pbs.twimg.com/profile_images/447280171478163456/onscDvho.jpeg"></img>
+				<img src="https://az729104.vo.msecnd.net/6646572.jpg;w=240;mode=crop;scale=both;anchor=middlecenter;v=1"></img>
+				<img src="https://az729104.vo.msecnd.net/7123278.jpg;w=240;mode=crop;scale=both;anchor=middlecenter;v=1"></img>
+
 			</div>
 		</<div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-rss/3.3.0/jquery.rss.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
 		<script>
-			$('#rss').rss("https://skolmaten.se/bergskolan/rss/days/?limit=7", {
+			$('#rss').rss("https://skolmaten.se/bergskolan/rss/weeks/", {
 				limit: 7,
 				ssl: true,
 				entryTemplate: '<li><b>{title}</b>: {shortBodyPlain}</li>',
