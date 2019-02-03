@@ -38,7 +38,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-rss/3.3.0/jquery.rss.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
 		<script>
-			$('#rss').rss("https://skolmaten.se/bergskolan/rss/weeks/", {
+			$('#rss').rss("https://skolmaten.se/bergskolan/rss/days/?limit=7", {
 				limit: 7,
 				ssl: true,
 				entryTemplate: '<li><b>{title}</b>: {shortBodyPlain}</li>',
