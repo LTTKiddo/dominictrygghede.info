@@ -1,0 +1,4 @@
+{
+    "build_source": "./static",
+    "build_target": "./dist"
+}
