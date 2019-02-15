@@ -1,0 +1,23 @@
+{
+  "name": "dominictrygghede.info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx mdstatic build",
+    "serve": "npx mdstatic serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frsgrn/dominictrygghede.info.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frsgrn/dominictrygghede.info/issues"
+  },
+  "homepage": "https://dominictrygghede.info",
+  "dependencies": {
+    "mdstatic": "^1.0.2"
+  }
+}
