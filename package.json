@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "generate": "npx mdstatic build",
+    "build": "npx mdstatic build",
     "serve": "npx mdstatic serve"
   },
   "repository": {
@@ -18,6 +18,6 @@
   },
   "homepage": "https://dominictrygghede.info",
   "dependencies": {
-    "mdstatic": "^1.0.2"
+    "mdstatic": "*"
   }
 }
