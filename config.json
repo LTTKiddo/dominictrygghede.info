@@ -1,4 +1,4 @@
 {
-    "build_source": "./static",
-    "build_target": "./dist"
+    "build_source": "static",
+    "build_target": "koo"
 }
