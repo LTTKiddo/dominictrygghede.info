@@ -15,7 +15,7 @@ Målet med denna hemsida är så att alla som söker efter "Dominic Trygghede" p
 ## vad jag är bra på
 * äta
 * dricka
-* skaffa kompisar
+* ~~skaffa kompisar~~
 * fortnite
 
 ## skolmaten
