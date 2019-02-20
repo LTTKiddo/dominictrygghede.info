@@ -10,12 +10,13 @@ Jag heter Dominic Trygghede och är en pojke på <span id="age">2003</span> somr
 Min födelsedag är den 16 juni, jobbar just nu på att skaffa mig min första kompis.<br/>
 Jag är för tusan elite! #1337 #420blzit
 
-Målet med denna hemsida är så att alla som söker efter "Dominic Trygghede" på internet ska veta vilken cool människa jag är. Allting här är skrivet av mig.
+Målet med denna hemsida är så att alla som söker efter "Dominic Trygghede" på internet ska veta vilken cool människa jag är. Allting här är skrivet av mig. 
 
 ## vad jag är bra på
 * äta
 * dricka
 * skaffa kompisar
+* fortnite
 
 ## skolmaten
 <div id="rss">
